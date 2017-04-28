@@ -1,5 +1,20 @@
 html {
     background: url(../../assets/seasons/spring/bg-spring.jpg) no-repeat;
-    background-color: yellow;
+    background-size: cover;
+    background-attachment: fixed;
+}
+body{
+    width: 70%;
+    background-color: rgba(255,255,255,0.6);
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 1.2em;
+}
+img{
+    width: 56px;
+    height: 56px;
+}
 
+p:hover{
+outline: 2px dotted darkred;
 }
